@@ -1,1 +1,36 @@
 /* Other rules */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.top {
+  border-bottom: 2px solid black;
+
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+}
+.header > img {
+  width: 350px;
+  border-radius: 10px;
+}
+.menuCard{
+    width: 1000px;
+    height: 300px;
+    background-color: red;
+}
+.menuCategory{
+    display: flex;
+    justify-content: center;
+margin-bottom: 130px;
+}
+.itemMenu{
+display: flex;
+
+}
+.cardItem{
+width: 350px;
+flex-shrink: 0;
+}
